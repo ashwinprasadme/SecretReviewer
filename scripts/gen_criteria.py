@@ -6,25 +6,24 @@ with open("criteria.json", "r") as f:
 # Start LaTeX Beamer document
 latex_code = """
 \\documentclass[handout]{beamer}
-\\usepackage{pgfpages}
 \\usepackage{framed}
 \\usepackage{geometry}
 \\usetheme{metropolis}
-\\geometry{paperwidth=8cm,paperheight=5cm}
+\\geometry{paperwidth=7.5cm,paperheight=4.3cm}
 \\setbeamertemplate{navigation symbols}{}
 \\setbeamertemplate{frametitle}[default][center]
 \\setbeamersize{text margin left=5pt,text margin right=5pt}
 \\usefonttheme{serif}
 \\setbeamerfont{frametitle}{size=\Large}
-\\pgfpagesuselayout{8 on 1}[letterpaper, border shrink=5mm]
-\\pgfpageslogicalpageoptions{1}{border code=\\pgfusepath{stroke}}
-\\pgfpageslogicalpageoptions{2}{border code=\\pgfusepath{stroke}}
-\\pgfpageslogicalpageoptions{3}{border code=\\pgfusepath{stroke}}
-\\pgfpageslogicalpageoptions{4}{border code=\\pgfusepath{stroke}}
-\\pgfpageslogicalpageoptions{5}{border code=\\pgfusepath{stroke}}
-\\pgfpageslogicalpageoptions{6}{border code=\\pgfusepath{stroke}}
-\\pgfpageslogicalpageoptions{7}{border code=\\pgfusepath{stroke}}
-\\pgfpageslogicalpageoptions{8}{border code=\\pgfusepath{stroke}}
+\\definecolor{codegreen}{rgb}{0,0.6,0}
+\\definecolor{codered}{rgb}{0.6,0,0}
+\\newenvironment{greenframe}{%
+	\\setbeamercolor{frametitle}{bg=codegreen}
+	\\begin{frame}
+	}{%
+	\\end{frame}
+}
+\\setbeamercolor{frametitle}{bg=codered}
 \\begin{document}
 """
 
@@ -32,19 +31,15 @@ latex_code = """
 for criterion in data["CriteriaToReject"]:
     latex_code += "\\begin{frame}[plain]\n\\centering\n"
     latex_code += f"\\frametitle{{{criterion['Criterion']}}}\n"
-    latex_code += "\\begin{framed}\n"
     latex_code += f"\\Large\\textbf{{{criterion['Description']}}}\n"
-    latex_code += "\\end{framed}\n"
     latex_code += "\\end{frame}\n"
 
 # Write criteria to accept
 for criterion in data["CriteriaToAccept"]:
-    latex_code += "\\begin{frame}[plain]\n\\centering\n"
+    latex_code += "\\begin{greenframe}[plain]\n\\centering\n"
     latex_code += f"\\frametitle{{{criterion['Criterion']}}}\n"
-    latex_code += "\\begin{framed}\n"
     latex_code += f"\\Large\\textbf{{{criterion['Description']}}}\n"
-    latex_code += "\\end{framed}\n"
-    latex_code += "\\end{frame}\n"
+    latex_code += "\\end{greenframe}\n"
 
 # End LaTeX document
 latex_code += "\\end{document}\n"
