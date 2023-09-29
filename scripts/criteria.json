@@ -1,125 +1,125 @@
 {
-    "ReasonsToReject": [
+    "CriteriaToReject": [
         {
-            "Reason": "Lack of Originality",
+            "Criterion": "Lack of Originality",
             "Description": "The paper does not present new findings, insights, or methods."
         },
         {
-            "Reason": "Weak Methodology",
+            "Criterion": "Weak Methodology",
             "Description": "The research methods used are unsound or inadequately described."
         },
         {
-            "Reason": "Poorly Defined Research Question",
+            "Criterion": "Poorly Defined Research Question",
             "Description": "The central research question or hypothesis is vague or unclear."
         },
         {
-            "Reason": "Insufficient Data",
+            "Criterion": "Insufficient Data",
             "Description": "There is not enough data to support the conclusions."
         },
         {
-            "Reason": "Flawed Analysis",
+            "Criterion": "Flawed Analysis",
             "Description": "The analysis may contain errors or inappropriate statistical tests."
         },
         {
-            "Reason": "Inaccurate Literature Review",
+            "Criterion": "Inaccurate Literature Review",
             "Description": "The paper does not reference or discuss key works in the field."
         },
         {
-            "Reason": "Poor Structure and Organization",
+            "Criterion": "Poor Structure and Organization",
             "Description": "The paper is disorganized or lacks clarity."
         },
         {
-            "Reason": "Substandard Language and Writing",
+            "Criterion": "Substandard Language and Writing",
             "Description": "The paper has numerous grammatical or syntax errors."
         },
         {
-            "Reason": "Overreach in Conclusions",
+            "Criterion": "Overreach in Conclusions",
             "Description": "The conclusions aren't fully supported by the data or analysis."
         },
         {
-            "Reason": "Ethical Issues",
+            "Criterion": "Ethical Issues",
             "Description": "The paper has problems related to ethical considerations."
         },
         {
-            "Reason": "Incomplete or Insufficient Results",
+            "Criterion": "Incomplete or Insufficient Results",
             "Description": "The results section does not adequately address the research question."
         },
         {
-            "Reason": "Lack of Theoretical Framework",
+            "Criterion": "Lack of Theoretical Framework",
             "Description": "The paper is not grounded in a clear theoretical or conceptual framework."
         },
         {
-            "Reason": "Not Suitable for the Journal",
+            "Criterion": "Not Suitable for the Journal",
             "Description": "The paper does not align with the scope or theme of the journal."
         },
         {
-            "Reason": "Issues with Citations",
+            "Criterion": "Issues with Citations",
             "Description": "There are inappropriate or missing citations."
         },
         {
-            "Reason": "Lack of Replicability",
+            "Criterion": "Lack of Replicability",
             "Description": "The paper does not provide enough detail for replication."
         }
     ],
-    "ReasonsToAccept": [
+    "CriteriaToAccept": [
         {
-            "Reason": "Novelty",
+            "Criterion": "Novelty",
             "Description": "The paper introduces a new concept, finding, or perspective."
         },
         {
-            "Reason": "Robust Methodology",
+            "Criterion": "Robust Methodology",
             "Description": "The research methods are sound and clearly described."
         },
         {
-            "Reason": "Clear Research Question",
+            "Criterion": "Clear Research Question",
             "Description": "The paper articulates a well-defined and relevant research question."
         },
         {
-            "Reason": "Comprehensive Data",
+            "Criterion": "Comprehensive Data",
             "Description": "The paper provides sufficient, relevant data."
         },
         {
-            "Reason": "Accurate and Sound Analysis",
+            "Criterion": "Accurate and Sound Analysis",
             "Description": "The analysis is done correctly, using appropriate methods."
         },
         {
-            "Reason": "Thorough Literature Review",
+            "Criterion": "Thorough Literature Review",
             "Description": "The paper acknowledges and effectively builds upon existing research."
         },
         {
-            "Reason": "Well-Structured and Organized",
+            "Criterion": "Well-Structured and Organized",
             "Description": "The paper follows a clear structure and is easy to follow."
         },
         {
-            "Reason": "High-Quality Writing",
+            "Criterion": "High-Quality Writing",
             "Description": "The language is clear, concise, and free from errors."
         },
         {
-            "Reason": "Supported Conclusions",
+            "Criterion": "Supported Conclusions",
             "Description": "The paper's conclusions are well-founded."
         },
         {
-            "Reason": "Ethical Rigor",
+            "Criterion": "Ethical Rigor",
             "Description": "The research adheres to ethical guidelines."
         },
         {
-            "Reason": "Valuable Results",
+            "Criterion": "Valuable Results",
             "Description": "The results are meaningful and contribute to the field."
         },
         {
-            "Reason": "Strong Theoretical Framework",
+            "Criterion": "Strong Theoretical Framework",
             "Description": "The research is grounded in a robust theoretical framework."
         },
         {
-            "Reason": "Relevance to the Journal",
+            "Criterion": "Relevance to the Journal",
             "Description": "The paper fits well with the scope and theme of the journal."
         },
         {
-            "Reason": "Proper Citations",
+            "Criterion": "Proper Citations",
             "Description": "The paper appropriately cites all sources."
         },
         {
-            "Reason": "Potential for Replicability",
+            "Criterion": "Potential for Replicability",
             "Description": "The research can be replicated or built upon by other scholars."
         }
     ]
