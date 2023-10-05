@@ -2,10 +2,11 @@
 $fn = 100; // High value to make circles appear as circles
 width = 90; // Width of the rectangle
 height = 55; // Height of the rectangle
-border_thickness = 3.5; // Thickness of the extruded border
+border_thickness = 2.5; // Thickness of the extruded border
 radius = 10; // Radius for rounded corners
 text_line_height = 6.75; // Height of each line of text
 text_line_spacing = 5; // Spacing between lines of text
+text_extrude_height = 2;
 text_lines = ["SecretReviewer", "Criterion"]; // Array containing the text lines
 
 // Derived parameters
@@ -35,9 +36,9 @@ for(i = [0 : len(text_lines) - 1]) {
     translate([
         0, 
         (total_text_height / 3) - (i * (text_line_height + text_line_spacing)), 
-        -2 
+        -text_extrude_height 
     ])
-    linear_extrude(height = 2, center=true)
+    linear_extrude(height = border_thickness, center=true)
     text(text_lines[i], size = text_line_height, valign = "center", halign = "center", font = str(font_name));
 }
 
