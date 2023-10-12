@@ -1,0 +1,12 @@
+%----printlabels.tex----------
+\documentclass[a4paper]{article}
+\usepackage{pdfpages}
+\begin{document}
+	\includepdf[pages={1-},% which labels do you want to print
+	delta=.075in 0.075in,% space between copies
+	frame,% comment if don't want frames
+	noautoscale,% keep original labels size
+	nup=3x3,% how many labels on physical page
+%	duplicatepages=12 % how many copies of same label
+	]{Papers_Beamer.pdf}
+\end{document}
