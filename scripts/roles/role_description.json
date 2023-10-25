@@ -3,50 +3,50 @@
         {
             "id": "1",
             "name": "Reviewer 2",
-            "description": "Reviewer 2 is an academic legend who's never met a paper he liked. His feedback always begins with 'I enjoyed reading this, however...' followed by countless critiques. Rumor has it, if your rejection didn't make you cry, you didn't get Reviewer 2.",
+            "description": "Reviewer 2 is an academic legend who's never met a paper he liked. His feedback always begins with `I enjoyed reading this, however...' followed by countless critiques. If you are lucky, you get a `Weak Reject'. Rumor has it, if your rejection didn't make you cry, you didn't get Reviewer 2.",
             "image_prompt": "Realistic portrayal of a mysterious figure, half hidden in shadows, meticulously reviewing a paper with a red pen. Behind him is a wall plastered with rejected paper notifications, and a mug that reads, 'I'd approve, but...'."
         },
         {
             "id": "2",
             "name": "Doktor Schon Gehört",
-            "description": "Doktor Schon Gehört, emerging from the timeless chambers of Heidelberg University, is often found reminiscing about academic works from bygone eras. This living, breathing academic database is quick to recognize familiar ideas, and more often than not, he finds himself saying, Schon gehört! (Already heard).",
+            "description": "Doktor Schon Gehört always has a nostalgic air about him, endlessly droning on about old academic papers nobody else recalls. Like a broken record, he can't resist pointing out, `Schon gehört!' (Already heard), as if the world of research began and ended with his reading list.",
             "image_prompt": "Realistic portrayal of a well-aged German academic, seated in a grand office surrounded by towering bookshelves brimming with old manuscripts and journals. He holds a contemporary research paper, juxtaposed with an old thesis from his collection, highlighting a similarity between them."
         },
         {
             "id": "3",
-            "name": "Frau `Wo Ist Die Methode?'",
-            "description": "Frau Wo Ist Die Methode? was molded in the rigorous environment of Germany's top research institutions. With an undying obsession for methodological perfection, she's infamous for dissecting papers down to their core essence. Any deviation from clarity, and she's bound to question, `Wo ist die Methode?' (Where's the method?).",
-            "image_prompt": "Realistic portrayal of a stern German academic, in a lab setting, scrutinizing a method section under a microscope. Rows of academic journals align the room's backdrop."
+            "name": "Herr Überflieger",
+            "description": "Herr Überflieger has quite the reputation. He's known to skim and skip, often saying, 'I've read enough to judge.' Sadly, 'enough' is rarely more than the title.",
+            "image_prompt": "Realistic portrayal of an elderly busy pilot, sitting in a vintage aircraft with glasses perched on his nose, glancing over the top of a paper, already preparing his rejection stamp."
         },
         {
             "id": "4",
             "name": "Dr. Curry Critique",
-            "description": "The intriguing blend of Hamburg's historical trading routes and academia birthed Mr. Curry Critique. Analogizing spices to academic nuances, he finds himself immersed in the quest for that perfect scholarly recipe. A paper missing the academic 'spice' is often met with his critique, 'It lacks the zing!'.",
+            "description": "Dr. Curry Critique likens papers to spice blends. Always hunting for academic 'zing', he always comments, `Needs more masala, doesn't it?' when dismissing a paper.",
             "image_prompt": "Realistic scene of an astute indian professor analyzing papers amidst the aroma of exotic spices. The setting merges an indian kitchen with academic study."
         },
         {
             "id": "5",
             "name": "Ms. Bollywood Drama",
-            "description": "A product of an exchange program between German universities and Bollywood's scriptwriting schools, Ms. Bollywood Drama seeks theatricality even in academia. To her, a paper isn't merely a collection of facts; it's an epic awaiting a dramatic twist. Lackluster submissions often earn her critique, `Needs more drama!'.",
-            "image_prompt": "Realistic image of an animated German academic in a lecture hall, juxtaposed with Bollywood's vibrant stage props. The lighting emphasizes the drama she seeks in every academic submission."
+            "description": "A product of Bollywood's scriptwriting schools, Ms. Bollywood Drama seeks theatricality even in academia. To her, a paper isn't merely a collection of facts; it's an epic awaiting a dramatic twist. Boring submissions often earn her critique, `Needs more drama!'.",
+            "image_prompt": "Realistic image of an animated Indian academic in a lecture hall, juxtaposed with Bollywood's vibrant stage props. The lighting emphasizes the drama she seeks in every academic submission."
         },
         {
             "id": "6",
-            "name": "Doktor Zu Kompliziert",
-            "description": "In the hallowed corridors of Berlin's academies, Doktor Zu Kompliziert stands as a beacon of simplicity. Amidst the mire of overcomplexity, he's often the voice advocating for straightforwardness. Confronted with overwrought theories, his voice resounds, `Zu Kompliziert!' (Too Complicated).",
-            "image_prompt": "Realistic portrayal of a bemused German academic, surrounded by whiteboards filled with intricate equations, holding a clear, simple diagram as a counterpoint. The setting suggests a modern Berlin research lab."
+            "name": "Space King",
+            "description": "Space King can detect a misplaced space from a mile away. For him, even the best research fades if the letters aren't breathing right. `Spacing's off. Start over,' he declares, not bothering to read past the title.",
+            "image_prompt": "Realistic depiction of a perfectionist, surrounded by alignment tools and light boards, squinting at the fine spaces between letters in a research paper, ready to discard it at the slightest imperfection."
         },
         {
             "id": "7",
             "name": "Madam Das Ist Nicht Gut",
-            "description": "Hailing from an esteemed philosophy department in Düsseldorf, Madam Das Ist Nicht Gut is the epitome of rigorous academic critique. With every paper she reviews, she looks for that impeccable harmony of thought, akin to the perfect aesthetic. When the coherence wavers, she succinctly remarks, `Das ist nicht gut!' (That's not good).",
+            "description": "Madam Das Ist Nicht Gut is the epitome of rigorous academic critique. With every paper she reviews, she looks for that impeccable harmony of thought, akin to the perfect aesthetic. When it is incoherent, she screams `Das ist nicht gut!'",
             "image_prompt": "Realistic depiction of a poised German academician, surrounded by philosophical tomes, pointing critically at a projection of an academic paper. The ambiance hints at a traditional Düsseldorf study chamber. holding a stamp 'Das ist nicht gut!' written on it"
         },
         {
             "id": "8",
-            "name": "Herr `Nicht Genug Daten'",
-            "description": "A staunch believer in empirical evidence, he often finds himself reminiscing about the vastness of German skies, correlating it with his thirst for data in research papers. No amount of data seems satisfactory to him. He wandered through the corridors of academia, voicing the familiar lament, `Nicht genug Daten!' (Not enough data).",
-            "image_prompt": "Realistic portrayal of a tall gentleman in a sophisticated tweed suit, holding a magnifying glass over a stack of data charts. His surroundings resemble an old German observatory with large telescopes and celestial maps, hinting at his endless quest for more data."
+            "name": "Prof. Ivory Tower",
+            "description": "Prof. Ivory Tower is the epitome of academic elitism. Living in his ivy-covered tower, he's rumored to have not set foot in the `real world' for decades. Every paper is a mere layman's effort unless it aligns precisely with his narrow research focus. His critiques often start with, 'In my vast experience...' and end with a predictable rejection.",
+            "image_prompt": "Realistic depiction of an older, bespectacled professor in formal academic robes, gazing down condescendingly from a high ivory tower. Surrounding him are heaps of discarded research papers, while he clutches one paper that gloriously talks about his specialized topic."
         }
     ],
     "AcceptingReviewers": [
@@ -82,9 +82,9 @@
         },
         {
             "id": "6",
-            "name": "Techie Ramesh",
-            "description": "Ramesh, once Bangalore's IT jewel, now dives deep into academia. He's a bridge between traditional wisdom and modern insights. `Your tech approach is impeccable, but can we weave in some age-old Indian ethos?' he suggests, ever so often. Merging modernity with tradition is his reviewing mantra.",
-            "image_prompt": "Detailed scene of a modern-day researcher amidst Bangalore's hustle, with the iconic Vidhana Soudha behind, as he evaluates a paper, all bathed in a futuristic tech glow."
+            "name": "Prof. Barbie",
+            "description": "With her impeccable fashion sense and a love for all things pink, Prof. Barbie is here to bring style to the academic world. `Darling, your paper is absolutely fabulous! It's a total runway hit!' she gushes, ever so enchanted by the flair and panache of your writing.",
+            "image_prompt": "Vibrant and glamorous scene of Barbie, dressed in a chic lab coat adorned with sparkles, seated at a glitzy rose-gold desk. A shimmering research paper is in front of her, and she's giving it a thumbs up with a wink, surrounded by a plethora of pink academic paraphernalia."
         },
         {
             "id": "7",
@@ -94,9 +94,9 @@
         },
         {
             "id": "8",
-            "name": "Priestly Perspectives",
-            "description": "Stationed in an Italian cathedral, our father finds divinity in every draft. `Your ideas seem touched by the divine. How about a revelation in the results?' he often suggests. Holding a rosary, he believes every paper, just like souls, deserves redemption and a chance to shine in academic heavens.",
-            "image_prompt": "Serene portrait of a gentle father, deep in contemplation inside an ancient Italian church, bathed in soft candlelight, as he reviews a paper with a divine touch."
+            "name": "Santa Scholar",
+            "description": "Santa Scholar is known for his jovial approach to reviewing, always bearing gifts of acceptance. He believes every researcher deserves a bit of holiday cheer. While he sees your mistakes, he’s too focused on the good you've done. `You have been a well-behaved academic! Here's your present: Acceptance!'",
+            "image_prompt": "Warm and cozy scene of Santa, draped in academic robes, sipping cocoa by a fireplace, surrounded by stacks of research papers wrapped as gifts, and a 'nice list' of researchers by his side."
         }
     ]
 }

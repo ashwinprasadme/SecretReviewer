@@ -83,7 +83,7 @@ latex_code = """
 \\usepackage{lipsum}  % to generate placeholder text (lines)
 \\usepackage{graphicx}
 \\usetheme{metropolis}
-\\geometry{paperwidth=6.25cm,paperheight=9cm}
+\\geometry{paperwidth=5.8cm,paperheight=8.5cm}
 \\setbeamertemplate{navigation symbols}{}
 \\setbeamertemplate{frametitle}[default][center]
 \\setbeamersize{text margin left=5pt,text margin right=5pt}

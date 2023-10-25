@@ -1,13 +1,13 @@
 // Parameters
 $fn = 100; // High value to make circles appear as circles
-width = 66; // Width of the rectangle
-height = 92; // Height of the rectangle
+width = 110; // Width of the rectangle
+height = 75; // Height of the rectangle
 border_thickness = 1.5; // Thickness of the extruded border
 radius = 5; // Radius for rounded corners
 text_line_height = 13; // Height of each line of text
 text_line_spacing = 4.95; // Spacing between lines of text
 text_extrude_height = 1.25;
-text_lines = ["Paper"]; // Array containing the text lines
+text_lines = ["ROLE"]; // Array containing the text lines
 
 // Derived parameters
 inner_width = width - 1 * border_thickness;
@@ -36,7 +36,7 @@ rotate(0,0,0)
 for(i = [0 : len(text_lines) - 1]) {
     translate([
         0, 
-        (total_text_height / 3) - (i * (text_line_height + text_line_spacing)), 
+        (height/total_text_height) - total_text_height/2, 
         -text_extrude_height 
     ])
     linear_extrude(height = border_thickness, center=true)
