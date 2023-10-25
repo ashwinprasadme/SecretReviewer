@@ -1,13 +1,13 @@
 import json
 
 template_start = r"""
-\documentclass[handout]{beamer}
+\documentclass[handout,8pt]{beamer}
 \usepackage{framed}
 \usepackage{geometry}
 \usetheme{metropolis}
 \usepackage{tikz}
 \usetikzlibrary{shadows}
-\geometry{paperwidth=14.25cm,paperheight=10cm}
+\geometry{paperwidth=10.2cm,paperheight=6.8cm}
 \setbeamertemplate{navigation symbols}{}
 \setbeamertemplate{frametitle}[default][center]
 \setbeamersize{text margin left=15pt,text margin right=15pt}
@@ -27,7 +27,7 @@ template_start = r"""
 \setbeamertemplate{navigation symbols}{}
 \setbeamertemplate{frametitle}{%
 	\nointerlineskip%
-	\begin{beamercolorbox}[wd=\paperwidth,ht=3.5ex,dp=2ex]{frametitle}
+	\begin{beamercolorbox}[wd=\paperwidth,ht=2.5ex,dp=1.5ex]{frametitle}
 		\centering
 		\hspace*{1ex}\insertframetitle%
 	\end{beamercolorbox}%
@@ -45,7 +45,7 @@ frame_template = r"""
             }};
         \end{{column}}
         \begin{{column}}{{0.5\textwidth}}
-            \begin{{tcolorbox}}[colback=white,colframe={framecolor},fonttitle=\bfseries, title={name}]
+            \begin{{tcolorbox}}[left=2pt,right=2pt,colback=white,colframe={framecolor},fonttitle=\bfseries, title={name}]
                 {description}
             \end{{tcolorbox}}
         \end{{column}}
