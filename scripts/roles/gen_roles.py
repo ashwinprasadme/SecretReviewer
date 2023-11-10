@@ -7,7 +7,7 @@ template_start = r"""
 \usetheme{metropolis}
 \usepackage{tikz}
 \usetikzlibrary{shadows}
-\geometry{paperwidth=10.2cm,paperheight=6.8cm}
+\geometry{paperwidth=9.5cm,paperheight=6.8cm}
 \setbeamertemplate{navigation symbols}{}
 \setbeamertemplate{frametitle}[default][center]
 \setbeamersize{text margin left=15pt,text margin right=15pt}
@@ -32,6 +32,7 @@ template_start = r"""
 		\hspace*{1ex}\insertframetitle%
 	\end{beamercolorbox}%
 }
+\hyphenation{Accepto}
 \begin{document}
 """
 
