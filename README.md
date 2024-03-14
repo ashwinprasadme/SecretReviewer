@@ -9,6 +9,8 @@
 
 Download now! [Print & Play](SecretReviewer_PrintandPlay.pdf)
 
+You can tailor this game specifically for your research group! [Learn more](#-customization)
+
 ## 🎯 Objective
 
 In the noble quest of academic research, scientists work tirelessly to publish their revolutionary papers. But beware! Some malevolent reviewers and the notorious "Reviewer 2" are out to reject these papers. Scientists must band together to publish their work, while adversaries conspire to halt their progress.
